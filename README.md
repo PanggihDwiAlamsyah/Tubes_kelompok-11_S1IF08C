@@ -3,7 +3,9 @@ Kemudahan dalam menemukan informasi film pun menjadi fokus utama agar pengguna d
 
 # Kelompok 11 
 Naeli Fitria Rokhmawati 		(20102081)
+
 Nihlatun Hasanah			(20102092)
+
 Panggih Dwi Alamsyah		(20102116)
 
 
