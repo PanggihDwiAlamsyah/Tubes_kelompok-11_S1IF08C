@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>KELOMPOK 11</title>
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container">
+      <a class="navbar-brand" href="#">FILMKU</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="fitur.html">Features</a>
+          <a class="nav-link" href="About.html">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+      {% for i in movie%}
+
+      <div class="box shadow">
+          <img src="../static/img/film.png">
+          <h5>{{ i['judul'] }}</h5>
+      <p>Tahun :{{ i['tahun'] }}</p>
+      <p>Produksi :{{ i['produksi'] }}</p>
+      <p>sutradara:{{ i['sutradara'] }}</p>
+      <p>Jumlah penonton:{{ i['penonton'] }}</p>
+      </div>
+      {% endfor %}
+  </div>
+  <script src="../static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KELOMPOK 11</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+          <a class="navbar-brand" href="#">FILMKU</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="index.html" >Home</a>
+              <a class="nav-link active" href="fitur.html">Features</a>
+              <a class="nav-link" href="About.html">About</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container d-flex justifiy-content-center align-items-center">
+        <div class="boxfitur">
+          <form method="POST" name="tahun" >
+            <div class="form__fieldset">
+                <label for="tahun" class="form__label">Filter Tahun:</label>
+                <select name="tahun" id="tahun" class=" form__input form__select">
+                    <option value="Pilih Tahun">-- Pilih Tahun --</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2012">2012</option>
+                    <option value="2008">2008</option>
+                    <option value="2003">2003</option>
+                </select>
+              <input class="form__submit" type="submit" value="cek"/>
+            </div>
+            <div class="form__fieldset">
+              <div>
+                <label class="form__label">TAHUN :</label>
+                <h3>{{t}}</h3>
+            </div>
+            <br>
+              <label for="judul" class="form__label">Judul Film:</label>
+              {% if t == '2020' %}
+                  {% for i in satu %}
+                      <h3>{{i}}</h3>
+                      <br>
+                  {% endfor %}
+                  <p>Film yang ditemukan ada {{allt.count('2020')}}</p>
+
+              {% elif t == '2019' %}
+                  {% for i in dua%}
+                      <h3>{{i}}</h3>
+                      <br>
+                  {% endfor %}
+                  <p>Film yang ditemukan ada {{allt.count('2019')}}</p>
+
+              {% elif t == '2018' %}
+                  {% for i in tiga%}
+                       <h3>{{i}}</h3>
+                       <br>
+                  {% endfor %}
+                   <p>Film yang ditemukan ada {{allt.count('2018')}}</p>
+
+              {% elif t == '2017' %}
+                  {% for i in empat%}
+                      <h3>{{i}}</h3>
+                      <br>
+                  {% endfor %}
+                  <p>Film yang ditemukan ada {{allt.count('2017')}}</p>
+
+              {% elif t == '2016' %}
+                  {% for i in lima%}
+                      <h3>{{i}}</h3>
+                      <br>
+                  {% endfor %}
+                  <p>Film yang ditemukan ada {{allt.count('2016')}}</p>
+
+              {% elif t == '2012' %}
+                  {% for i in enam%}
+                      <h3>{{i}}</h3>
+                      <br>
+                  {% endfor %}
+                  <p>Film yang ditemukan ada {{allt.count('2012')}}</p>
+
+              {% elif t == '2008' %}
+                  {% for i in tujuh%}
+                      <h3>{{i}}</h3>
+                      <br>
+                  {% endfor %}
+                  <p>FIlm  yang ditemukan ada {{allt.count('2008')}}</p>
+
+              {% elif t == '2003' %}
+                  {% for i in lapan%}
+                      <h3>{{i}}</h3>
+                      <br>
+                  {% endfor %}
+                  <p>Film yang ditemukan ada {{allt.count('2003')}}</p>
+              
+              {%endif%}
+                  </select>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
+
+   <script src="../static/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

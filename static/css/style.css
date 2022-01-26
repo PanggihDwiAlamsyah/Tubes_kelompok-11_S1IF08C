@@ -1,0 +1,94 @@
+/*untuk desain index.html*/
+.box{
+    float:left;
+    width:500px;
+    height: 220px;
+    margin: 30px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.box img{
+    margin-right: 50px ;
+    width: 100px ;
+    height: 180px;
+    float: left;
+    object-fit: contain;
+}
+
+
+/*Untuk desain fitur.html*/
+.boxfitur{
+  margin: auto;
+  width: 50%;
+  border: 3px solid whitesmoke;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.form__fieldset {
+  padding: 15px 15px;
+}
+
+.form__fieldset:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form__input {
+  font-size: 1rem;
+  height: 30px;
+}
+
+.form__select {
+  padding: 4px 2px;
+}
+
+.form__label {
+  margin-right: 15px;
+}
+
+.form__submit {
+  padding: 8px 16px;
+  background-color: unset;
+  border: 2px solid #1c2023;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.form__submit:hover {
+  background-color: #1c2023;
+  color: white;
+}
+
+  /*untuk desain About.html*/
+.boxabout {
+    width:800px;
+    background-color: grey;
+
+}
+
+.neli {
+    background-image: url("../img/neli.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.panggih {
+    background-image: url("../img/panggih.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.nila {
+    background-image: url("../img/nila.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+}

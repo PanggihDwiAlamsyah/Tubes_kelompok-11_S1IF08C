@@ -1,0 +1,173 @@
+{
+    "film": [
+        {   
+            "judul": "Warkop DKI Reborn : Jangkrik Boss! Part 1",
+            "penonton": "6858616",
+            "roduksi": "falcon pictures",
+            "tahun": "2016",
+            "sutradara": "Anggy Umbara"
+        },
+        {
+            "judul": "Dilan 1990",
+            "penonton": "6315664",
+            "produksi": "max pictures",
+            "tahun": "2018",
+            "sutradara": "Fajar Bustomi, Pidi Baiq"
+        },
+        {
+            "judul": "Dilan 1991",
+            "penonton": "5253411",
+            "produksi": "max pictures",
+            "tahun": "2018",
+            "sutradara": "Fajar Bustomi, Pidi Baiq"
+        },
+        {
+            "judul": "Laskar Pelangi",
+            "penonton": "4719453",
+            "produksi": "miles films",
+            "tahun": "2008",
+            "sutradara": "Riri Riza"
+        },
+        {   
+            "judul": "Habibie & Ainun",
+            "penonton": "4583641",
+            "produksi": "MD Pictures",
+            "tahun": "2012",
+            "sutradara": "Faozan Rizal"
+        },
+        {
+            "judul": "Pengabdi Setan",
+            "penonton": "4206103",
+            "produksi": "Rapi Films, CJ Enternaint",
+            "tahun": "2017",
+            "sutradara": "Joko Anwar"
+        },
+        {
+            "judul": "Warkop DKI Reborn : Jangkrik Boss! Part 2",
+            "penonton": "4083190",
+            "produksi": "Falcon Pictures",
+            "tahun" : "2016",
+            "sutradara" : "Anggy Umbara"
+        },
+        {   
+            "judul": "Ayat-ayat Cinta",
+            "penonton": "3676135",
+            "produksi": "MD Pictures",
+            "tahun": "2008",
+            "sutradara": "Hanung Bramantyo"
+        },
+        {
+            "judul": "Ada Apa dengan Cinta? 2",
+            "penonton": "3665509",
+            "produksi": "Miles Films, Legacy Pictures, Tanakhir Films",
+            "tahun": "2016",
+            "sutradara": "Riri Riza"
+        },
+        {
+            
+            "judul": "Milea : Suara dari Dilan",
+            "penonton": "3122263",
+            "produksi": "Max Pictures",
+            "tahun": "2020",
+            "sutradara": "Fajar bustomi, Pidi Baiq"
+        },
+        {
+            "judul": "Suzzanna : Bernapas dalam Kubur",
+            "penonton": "3346185",
+            "produksi": "Soraya Intersine Films",
+            "tahun": "2018",
+            "sutradara": "Rocky Soraya, Anggy Umbara"
+        },
+        {
+            "judul": "My stupid Boss",
+            "penonton": "3052657",
+            "produksi": "Falcon Pictures",
+            "tahun": "2016",
+            "sutradara": "Upi Avianto"
+        },
+        {
+            "judul": "Ayat-ayat Cinta 2",
+            "penonton": "2840159",
+            "produksi": "MD Pictures",
+            "tahun": "2017",
+            "sutradara": "Guntur Soeharjanto"
+        },
+        {
+            "judul": "Danur : I Can see Ghosts",
+            "penonton": "2736391",
+            "produksi": "Pichouse films",
+            "tahun": "2017",
+            "sutradara": "Awi Suryadi"
+        },
+        {
+            "judul": "Imperfect : karier, cinta, dan timbangan",
+            "penonton": "2662356",
+            "produksi": "Starvision Plus",
+            "tahun": "2019",
+            "sutradara": "Ernest Prakasa"
+        },
+        {
+            "judul": "Cek Toko Sebelah",
+            "penonton": "2642957",
+            "produksi": "Starvision Plus",
+            "tahun": "2016",
+            "sutradara": "Ernest Prakasa"
+        },
+        {
+            "judul": "eifel i'm in love",
+            "penonton": "2632300",
+            "produksi": "Soraya Intersine Films",
+            "tahun": "2003",
+            "sutradara": "Nasri Cheppy"
+        },
+        {
+            "judul": "Hangout",
+            "penonton": "2620644",
+            "produksi": "Rapi Films",
+            "tahun": "2016",
+            "sutradara": "Raditya Dika"
+        },
+        {
+            "judul": "Danur 2: Maddah",
+            "penonton": "2572871",
+            "produksi": "MD Pctures, Pichouse Films",
+            "tahun": "2018",
+            "sutradara": "Awi Suryadi"
+        },
+        {
+            "judul": "Jailangkung",
+            "penonton": "2550271",
+            "produksi": "Screenplay Films",
+            "tahun": "2017",
+            "sutradara": "Jose Poernomo"
+        },
+        {
+            "judul": "Dua Garis Biru",
+            "penonton": "2538473",
+            "produksi": "Starvision Plus",
+            "tahun": "2019",
+            "sutradara": "Gina S Nur"
+        },
+        {
+            "judul": "Danur 3 : sunyaruri",
+            "penonton": "2405523",
+            "produksi": "Md Pictures",
+            "tahun": "2019",
+            "sutradara": "Awi Suryadi"
+        },
+        {
+            "judul": "5 cm",
+            "penonton": "2402170",
+            "produksi": "Surya Intercine Films",
+            "tahun": "2012",
+            "sutradara": "Rizal Mantovani"
+        },
+        {
+            "judul": "Nanti Kita Cerita Tentang Hari Ini",
+            "penonton": "2256876",
+            "produksi": "Visinema Pictures",
+            "tahun": "2020",
+            "sutradara": "Angga Dwimas Sasongko"
+        }
+    ]
+}
