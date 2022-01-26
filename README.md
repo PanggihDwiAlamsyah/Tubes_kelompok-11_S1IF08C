@@ -10,8 +10,8 @@ Panggih Dwi Alamsyah		(20102116)
 
 
 # Tampilan Website
-## menu home
+## Menu home
 
-## menu Fitur
+## Menu Fitur
 
-## menu about
+## Menu about
