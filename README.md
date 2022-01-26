@@ -11,7 +11,7 @@ Panggih Dwi Alamsyah		(20102116)
 
 # Tampilan Website
 ## Menu home
-![image](https://user-images.githubusercontent.com/77493833/151205782-be0dcc90-371a-414d-b229-f913d0971b67.png)
+![image](https://user-images.githubusercontent.com/77493833/151206501-aa28b458-f272-4a71-9f64-f773c09183c5.png)
 ## Menu Fitur
 
 ## Menu about
